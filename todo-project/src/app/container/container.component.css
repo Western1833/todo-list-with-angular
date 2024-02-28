@@ -1,0 +1,43 @@
+.container {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    border-radius: 0.4em;
+}
+
+.add-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container input {
+    border: none; /* Remove default border */
+    outline: none; /* Remove default outline */
+    padding: 5px 0; /* Adjust padding as needed */
+    border-bottom: 1px solid black; /* Add underline */
+    background: none;
+}
+
+.container input::placeholder {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.container input:focus {
+    border-bottom-color: red;
+}
+
+.add-btn {
+    background-color: rgb(229, 198, 161);
+    padding: 7px 14px;
+    border-radius: 10px;
+}
+
+.container ul {
+    list-style: none;
+}
