@@ -10,5 +10,6 @@ export class InputFieldComponent {
 
   inputDataHandler() {
     console.log(this.newItem);
+    this.newItem = '';
   }
 }
