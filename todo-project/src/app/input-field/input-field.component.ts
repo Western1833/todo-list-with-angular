@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./input-field.component.css']
 })
 export class InputFieldComponent {
+  newItem: string = '';
 
+  inputDataHandler() {
+    console.log(this.newItem);
+  }
 }
