@@ -11,6 +11,7 @@
     padding: 5px 0;
     border-bottom: 1px solid black;
     background: none;
+    width: 287px;
 }
 
 .add-container input::placeholder {
@@ -19,16 +20,18 @@
 }
 
 .add-container input:focus {
-    border-bottom-color: red;
+    border-bottom: 2px solid rgb(101, 15, 15);
 }
 
 .add-btn {
     background-color: rgb(229, 198, 161);
-    padding: 7px 14px;
+    padding: 8px 16px;
     border-radius: 10px;
+    border: none;
 }
 
 .add-btn:hover {
     background-color: rgb(30, 167, 30);
     cursor: pointer;
+    outline: 2px solid rgb(101, 15, 15);
 }
