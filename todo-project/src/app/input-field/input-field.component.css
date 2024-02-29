@@ -1,0 +1,34 @@
+.add-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 1em;
+}
+
+.add-container input {
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+.add-container input::placeholder {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.add-container input:focus {
+    border-bottom-color: red;
+}
+
+.add-btn {
+    background-color: rgb(229, 198, 161);
+    padding: 7px 14px;
+    border-radius: 10px;
+}
+
+.add-btn:hover {
+    background-color: rgb(30, 167, 30);
+    cursor: pointer;
+}
