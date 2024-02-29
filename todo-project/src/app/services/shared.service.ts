@@ -12,5 +12,6 @@ export class DataService {
         const currentItems = this.itemsSubject.value;
         const updatedItems = [...currentItems, newItem];
         this.itemsSubject.next(updatedItems);
+        console.log(updatedItems)
     }
 }

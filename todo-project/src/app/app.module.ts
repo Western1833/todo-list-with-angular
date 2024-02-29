@@ -14,7 +14,7 @@ import { ListItemsComponent } from './list-items/list-items.component';
     ContainerComponent,
     InputFieldComponent,
     ResultContainerComponent,
-    ListItemsComponent
+    ListItemsComponent,
   ],
   imports: [
     BrowserModule,
