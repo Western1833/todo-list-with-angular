@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataService } from '../services/shared.service';
 
 @Component({
   selector: 'app-input-field',
@@ -8,8 +9,13 @@ import { Component } from '@angular/core';
 export class InputFieldComponent {
   newItem: string = '';
 
+  constructor(private dataService: DataService){
+
+  }
+
   inputDataHandler() {
     console.log(this.newItem);
+    this.dataService.addData(this.newItem);
     this.newItem = '';
   }
 }
